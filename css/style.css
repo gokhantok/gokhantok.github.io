@@ -1087,7 +1087,10 @@ html.WithJs.LoadDone .intro-content {
     display: inline-block;
     border-radius: 50%;
     transition: all 100ms linear
+<<<<<<< HEAD
     
+=======
+>>>>>>> origin/master
 }
 
 @media(max-width:480px) {
