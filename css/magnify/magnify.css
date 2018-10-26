@@ -1,0 +1,59 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+.zoom {
+    width: 90vw;
+    height: auto;
+    margin: 0px auto;
+    top: 10px;
+    position: relative;
+  }
+
+  .zoom img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 30px;
+  }  
+  .lge{
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  transform: scale(1);
+  position: absolute;
+  border-radius: 100%;
+  cursor:none;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.85), 0 0 7px 7px rgba(0,0,0,0.25), inset 0 0 40px 2px rgba(0,0,0,0.25);
+  background: url('https://farm9.staticflickr.com/8448/28649631654_968e3fb873_c.jpg');
+  background-repeat:no-repeat;
+  }
+  /*--------- buttons ---------*/
+  .btn{
+    color: white !important;
+    background-color: #745fb5 !important;
+    font-weight: bold !important;
+    border-radius: 25px;
+    font-size: 2.5rem;
+  }
+  .btn-left{
+    padding: 1.2rem 1rem;
+    position: fixed;
+    top: 5% !important;
+    left: 5% !important;
+  }
+  .t-Button .fa {
+    font-size: 3rem;
+    min-width: 12rem;
+  }
+  .btn-center{
+    padding: 1.8rem 7rem;
+    position: fixed;
+    bottom: 2%  !important;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0%);
+  }
+  .btn-right{
+    position: fixed;
+    bottom: 2% !important;
+    padding: 2rem 4rem;
+    right: 3% !important;
+  }
+  
