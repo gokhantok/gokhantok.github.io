@@ -35,7 +35,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   .btn-left{
     padding: 1.2rem 1rem;
     position: fixed;
-    top: 5% !important;
+    bottom: 5% !important;
     left: 5% !important;
   }
   .t-Button .fa {
